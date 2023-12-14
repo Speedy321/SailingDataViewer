@@ -6,7 +6,7 @@ from data_paths import *
 
 def generate_map(map_name: str, data_paths: "list[str]") -> None:
     '''
-    This fuction generates a map (plotly mapbox) and displays it with the default renderer for your device, probably the web browser.
+    This function generates a map (plotly mapbox) and displays it with the default renderer for your device, probably the web browser.
     It takes the name of the generated map and a list of paths to the data csv files to load the data from. 1 file per run or similar. It will color the data from each file differently.
     '''
     dataframes: 'list[pd.DataFrame]' = []

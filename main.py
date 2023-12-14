@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    files = args.files    
+    files = args.file
     if args.folder:
         files.extend(list_dirs(args.folder))
     
